@@ -4,28 +4,6 @@ A scalable, production-ready REST API built with **Node.js, Express, TypeScript,
 
 This backend provides secure authentication, role-based access control, product management, favorites functionality, search, pagination, and soft delete mechanisms — all following clean architecture principles.
 
----
-
-# 📌 Table of Contents
-
-- [Overview](#-overview)
-- [Tech Stack](#-tech-stack)
-- [Architecture](#-architecture)
-- [Project Structure](#-project-structure)
-- [Installation](#-installation)
-- [Environment Variables](#-environment-variables)
-- [Authentication Flow](#-authentication-flow)
-- [Product Module](#-product-module)
-- [Pagination & Search](#-pagination--search)
-- [Favorites System](#-favorites-system)
-- [Soft Delete Strategy](#-soft-delete-strategy)
-- [API Response Format](#-api-response-format)
-- [Security Features](#-security-features)
-- [Scripts](#-scripts)
-- [Future Improvements](#-future-improvements)
-
----
-
 # 📖 Overview
 
 This backend is designed to serve as the core API for a marketplace application (Web + Mobile).
