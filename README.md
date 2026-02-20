@@ -35,6 +35,41 @@ It supports:
 
 ---
 
+## 🔐 AUTH ENDPOINTS
+
+| Method | Endpoint | Access |
+|--------|----------|--------|
+| POST | http://localhost:5000/api/v1/auth/register | Public |
+| POST | http://localhost:5000/api/v1/auth/verify-otp | Public |
+| POST | http://localhost:5000/api/v1/auth/resend-otp | Public |
+| POST | http://localhost:5000/api/v1/auth/login | Public |
+| POST | http://localhost:5000/api/v1/auth/admin/login | Public |
+| POST | http://localhost:5000/api/v1/auth/google | Public |
+| POST | http://localhost:5000/api/v1/auth/refresh-token | Public |
+| POST | http://localhost:5000/api/v1/auth/forgot-password | Public |
+| POST | http://localhost:5000/api/v1/auth/reset-password | Public |
+| GET  | http://localhost:5000/api/v1/auth/me | Auth |
+| GET  | http://localhost:5000/api/v1/auth/sessions | Auth |
+| POST | http://localhost:5000/api/v1/auth/logout | Auth |
+| POST | http://localhost:5000/api/v1/auth/logout-all | Auth |
+
+---
+
+## 📦 PRODUCT ENDPOINTS
+
+| Method | Endpoint | Access |
+|--------|----------|--------|
+| GET    | http://localhost:5000/api/v1/products | Public |
+| GET    | http://localhost:5000/api/v1/products/:id | Public |
+| GET    | http://localhost:5000/api/v1/products/user/favorites | Auth |
+| POST   | http://localhost:5000/api/v1/products | Admin |
+| PUT    | http://localhost:5000/api/v1/products/:id | Admin |
+| DELETE | http://localhost:5000/api/v1/products/:id | Admin |
+| POST   | http://localhost:5000/api/v1/products/:id/favorite | Auth |
+| DELETE | http://localhost:5000/api/v1/products/:id/favorite | Auth |
+
+---
+
 # 🏗 Architecture
 
 
